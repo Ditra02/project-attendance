@@ -1,6 +1,5 @@
 import os
 
-
 def menu():
     os.system("cls")
     print("Menu".center(13, "~"))

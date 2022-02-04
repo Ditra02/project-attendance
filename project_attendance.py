@@ -112,7 +112,7 @@ def delete_data():
     # ?delete row's number and reset numbering
     no = 1
     for row in range(1, len(data)):
-        data[row] = str(no) + " " * (4 - len(str(no))) + data[row][4:]
+        data[row] = str(no) + " " * (4 - len(str(no))) + data[row][4:]      #* create new data line
         no += 1
 
     with open('my_file.txt', 'w') as my_file:
